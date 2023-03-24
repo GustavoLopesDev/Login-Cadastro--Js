@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/login.css">
+    <title>Login</title>
+</head>
+<body>
+    <main class="main">
+        <div class="section">
+            <h1 class="title">Entrar</h1>
+            <h2 class="error" id="error">Usuário ou Senha Incorreto!</h2>
+            <p class="Saved" id="Saved"> Conectando Usuário.....</p>
+            <form class="form">
+                <div class="input-group">
+                    <input type="text" id="usuario" class="input" required="" name="text" autocomplete="off">
+                    <label id="Labelusuario" class="label">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="senha" maxlength="16" class="input" required="" name="text" autocomplete="off">
+                    <label id="Labelsenha" class="label">Senha</label>
+                </div>  
+            </form>
+            <button id="Entrar">Entrar</button>
+            
+            <p class="paragraph">Não tem uma conta? <a href="/Assets/HTML/register.html" >Cadastre-se</a></p>
+        </div>
+    </main>
+    <script src="/Assets/JS/login.js"></script>
+</body>
+</html>

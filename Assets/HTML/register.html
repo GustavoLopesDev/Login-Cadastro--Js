@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Assets/CSS/register.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main class="main">
+        <div class="section">
+            <div class="aline-center">
+                <h1 class="title">Cadastro</h1>
+            </div>
+            <p class="Error" id="Error">Preencha Corretamente Todos os Campos Solicitados</p>
+            <p class="Saved" id="Saved"> Cadastrando Usuário.....</p>
+            <form class="form">
+                <div class="input-group">
+                    <input type="text" id="nome" class="input" required="" name="text" autocomplete="off">
+                    <label id="LabelNome" class="label">Nome</label>
+                </div>
+                <div class="input-group">
+                    <input type="text" id="usuario" class="input" required="" name="text" autocomplete="off">
+                    <label id="LabelUsuario" class="label">Usuário</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="senha" maxlength="16" class="input" required="" name="senha" autocomplete="off">
+                    <label id="LabelSenha" class="label">Senha</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="ConfirmSenha" maxlength="16" class="input" required="" name="senha" autocomplete="off">
+                    <label class="label" id="LabelConfirm" >Confirmar Senha</label>
+                </div>
+            </form>
+            <div class="aline-center">
+                <button id="Cadastrar">Cadastrar</button>
+            </div>
+        </div>
+    </main>
+    <script src="/Assets/JS/register.js"></script>
+</body>
+</html>
