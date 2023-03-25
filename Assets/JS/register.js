@@ -71,7 +71,7 @@ function CadastrarUsuario(){
             Senha: Senha.value
         })
         setTimeout(() => {
-            window.location.href = "/index.html"
+            window.location.href = '/index.html'
         }, 3000);
         localStorage.setItem('ListaUsuario', JSON.stringify(ListaUsuario))
 
