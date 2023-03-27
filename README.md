@@ -21,8 +21,8 @@
 </div>
 
 <h2>Descrição :</h2>
-<p>Aplicação criada para estudo pratico em validação de Formulário e manipulação de DOM, fazendo com que o Usuário consiga criar um Perfil através dos dados preenchidos na área de Cadastro.</p>
+<p>Aplicação criada para estudo prático em validação de Formulário e manipulação de DOM, fazendo com que o Usuário consiga criar um Perfil através dos dados preenchidos na área de Cadastro.</p>
 <h2>Detalhes do Projeto :</h2>
 <p>Realizei a validação através dos valores do input realizando uma estilização especifica para cada caso (certo/errado).</p>
-<p>Utilizei uma arrey vazia para armazenar os Usuários utilizando um objeto pré determinado com os nomes e valores preenchidos pelo Usuário. Salvei as informações no formato JSON no localStorage com objetivo de utilizar o navegador como banco de dados para armazenar os dados.</p>
+<p>Utilizei uma array vazia para armazenar os Usuários utilizando um objeto pré determinado com os nomes e valores preenchidos pelo Usuário. Salvei as informações no formato JSON no localStorage com objetivo de utilizar o navegador como banco de dados para armazenar os dados.</p>
 <p>Para pegar essas informações da página de Cadastro na pagina de Login criei um novo Array e um novo Objeto e fiz o Esse Array se conectasse ao Array do Cadastro salvo no localStorage e pegasse seus itens, após isso peguei o Objeto e igualizei aos itens do array de login.</p>
